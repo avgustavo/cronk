@@ -76,6 +76,9 @@ def cron_to_json(text: str) -> Json:
         for comment, command in zip(command_comments, commands)
     ]
 
+    print("IME-USP")
+
+
     return Json(intro=intro, routines=routines, outro=outro)
 
 
